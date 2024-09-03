@@ -97,6 +97,20 @@ console.log(e2)
 // selenium , python
 
 
+//         0  1  2  3  4
+let a1 = [11,22,33,44,55]
 
+let q222 = a1.filter(function(el){
+    return el > 20
+})
 
+let q2222 = a1.find(function(el){
+    return el > 20
+})
+console.log(q2222)
+
+let q22222 = a1.findIndex(function(el){
+    return el > 20
+})
+console.log(q22222)
 
