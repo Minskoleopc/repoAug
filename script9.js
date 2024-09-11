@@ -10,14 +10,14 @@ console.log(fn)
 
 // toLowerCase()
 let lastName = "Deshpande"
-let ln = lastName.toLowerCase()
+let ln = lastName.toLowerCase() // "deshpande"
 console.log(ln)
 
 // includes()
 let firstNamee = "chinmay"
-let nn = firstNamee.includes("chi")
+let nn = firstNamee.includes("chi") // boolean - true
 console.log(nn)
-let mm  = firstNamee.includes("CHI")
+let mm  = firstNamee.includes("CHI") // boolean- false
 console.log(mm)
 
 // indexOf()
@@ -25,11 +25,11 @@ console.log(mm)
 let  middleName = "shirish"
 // 0   1   2   3  4   5   6
 // S   h   i   r  i   s   h
-let w1 = middleName.indexOf('i')
+let w1 = middleName.indexOf('i') // 2
 console.log(w1)
-let w2 = middleName.indexOf("I")
+let w2 = middleName.indexOf("I") // -1
 console.log(w2)
-let w3 = middleName.lastIndexOf('i')
+let w3 = middleName.lastIndexOf('i') // 4
 console.log(w3)
 
 
@@ -37,16 +37,16 @@ console.log(w3)
 // boolean value 
 
 let city = "pune"
-let w4 = city.startsWith('p')
-let w5 = city.startsWith('pu')
+let w4 = city.startsWith('p') // true
+let w5 = city.startsWith('pu') // true
 console.log(w4)
 console.log(w5)
 
 
 let city2 = "nagpur"
-let w6 = city2.endsWith('r')
-let w7 = city2.endsWith('ur')
-let w8 = city2.endsWith('Ur')
+let w6 = city2.endsWith('r') // true
+let w7 = city2.endsWith('ur') //true
+let w8 = city2.endsWith('Ur') // false
 console.log(w6)
 console.log(w7)
 console.log(w8)
@@ -75,9 +75,6 @@ console.log(w12)
 
 
 
-// slice()
-
-
 // split()
 let email = "chinmaydeshpande@gmail.com"
 console.log(email.split('@'))
@@ -87,3 +84,5 @@ console.log(email.split('a'))
 //["chinmaydeshpande","gmail.com"]
 //["chinm","ydeshp","nde@gm,"il.com"]
 console.log([ 'chinm', 'ydeshp', 'nde@gm', 'il.com' ].join('a'))
+
+
