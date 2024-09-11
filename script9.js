@@ -86,3 +86,7 @@ console.log(email.split('a'))
 console.log([ 'chinm', 'ydeshp', 'nde@gm', 'il.com' ].join('a'))
 
 
+// Gen AI
+// 9pm
+// Excel 
+// --------focus ---- concentrationn
