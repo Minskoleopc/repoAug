@@ -24,16 +24,13 @@ console.log(q1)
 
 //               0         1           2       3
 let country = ["india","pakistan","srilanka","cuba"]
-
 // everthing in js is object 
 // object with have properties and method
-
 let q2 = country.length
 console.log(q2-1)
 
 
 // program 3 
-
 //              0        1      2         3       4
 let fruits = ["apple","mango","banana","orange","grapes"]
 for(let i = 0 ; i < fruits.length ; i++){

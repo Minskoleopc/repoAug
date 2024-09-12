@@ -67,8 +67,6 @@ console.log(e3)
 // program 7
 
 let email = "chinmaydeshpande010@gmail.com"
-
-
 let qw = email.split("@")
 console.log(qw)
 
