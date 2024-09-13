@@ -94,11 +94,11 @@ let info33 = {
     age:23
 }
 
-function getFirstNameCity({fn,ln}){
+function getFirstNameCity({fn,age}){
     console.log(fn)
-    console.log(ln)
+    console.log(age)
 }
-getFirstCity(info33)
+getFirstNameCity(info33)
 
 
 
