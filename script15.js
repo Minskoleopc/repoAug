@@ -140,3 +140,5 @@ for(let v of mapE.entries()){
     console.log(v)
 }
 
+//loadash
+
