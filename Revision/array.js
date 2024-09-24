@@ -110,7 +110,101 @@ let numbers = [11,22,33,44,55]
 let q11 = numbers.reverse()
 console.log(q11)
 
-// sort()
+
+// map()
+let numberss = [11,22,33]
+//[12,23,34]
+let newArray = []
+for(let i = 0 ; i < numberss.length ; i++){
+    //console.log(i)
+    //console.log(numberss[i]+1)
+    newArray.push(numberss[i] + 1)
+}
+console.log(newArray)
+
+let newArray2 = numberss.map(function(el,index,arr){
+    //console.log(el,index,arr)
+    return el + 1
+})
+console.log(newArray2)
+
+
+// filter()
+numberss = [11,22,33,22,34,55,3,4,5,6]
+let above20 = []  //22
+//[22,33,22,34,55]
+
+for(let i = 0 ; i < numberss.length ; i++){
+    //console.log(i)
+    //console.log(numberss[i])
+    if(numberss[i] > 20){
+        above20.push(numberss[i])
+    }
+}
+console.log(above20)
+
+let newArrayF = numberss.filter(function(el,index,arr){
+    return el > 20
+})
+console.log(newArrayF)
+
+// reduce()
+let numberC = [11,22,33] //66
+let total = 0
+
+for(let i = 0 ; i < numberC.length ; i++){
+    //console.log(i)
+    //console.log(numberC[i])
+    total = total + numberC[i]
+    //        0   +      11   ------> total -- 11
+    //        11  +      22  -------> total -- 33
+    //        33  +      33   ------> total -- 66
+
+}
+console.log(total)
+let total2 = numberC.reduce(function(acc,el,index,arr){
+    return acc + el  // acc -- 66
+},0)
+console.log(total2)
+// forEach()
+
+let cities = ["pune","mumbai","banglore","kolkata"]
+
+for(let i = 0 ; i < cities.length ; i++){
+    console.log("welcome " + cities[i])
+}
+
+cities.forEach(function(el,index,arr){
+    console.log('welcome '+ el)
+})
+
+// [11,22,33] ==== > [22,44,66] ---- map
+// [11,22,33] ==== > [22,33] ------ filter
+// [11,22,33] ==== >   66    ------ reduce 
+// [11,22,33]                 ---- forEach()
+ 
+
+
+
+
+// some()
+
+
+// every()
+
+
+// find()
+
+
+// findIndex()
+
+
+
+
+
+
+
+
 
 
 
