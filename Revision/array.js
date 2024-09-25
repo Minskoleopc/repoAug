@@ -198,6 +198,106 @@ cities.forEach(function(el,index,arr){
 
 // findIndex()
 
+// program 1 map()
+
+let birthYear = [1989,1990,1992,1993]
+//[35,34,33,32]
+let ages = birthYear.map(function(el,index,arr){
+    return 2024 - el
+})
+console.log(ages)
+
+// program 2 filter()
+
+let transactions = [2000,2001,2000,-1950,100,-50,18,-18]
+let deposit = transactions.filter(function(el){
+    return el > 0
+})
+console.log(deposit)
+let withdrawl = transactions.filter(function(el){
+    return el < 0
+})
+console.log(withdrawl)
+
+// program 3 reduce()
+let marks = [11,22,33,44]
+let total3 = marks.reduce(function(acc,el,index,arr){
+    return acc + el
+},0)
+console.log(total3)
+
+
+// program 4 - forEach()
+
+let countries = ["india","pakistan","srilanka","bangladesh"]
+countries.forEach(function(el,index,arr){
+    console.log("welcome "+ el)
+})
+
+
+// program 5
+//            0  1  2  3  4  5 6  7  8
+let marks2 = [34,55,22,33,44,5,55,66,77]
+// [55,44,55,66,77]
+let above40 = marks2.filter(function(el){
+    return el > 40
+})
+console.log(above40)
+
+// program 6 find()
+let firstElement = marks2.find(function(el){
+    return el > 40
+})
+console.log(firstElement)
+
+
+//program 7 findIndex()
+let firstElementIndex = marks2.findIndex(function(el){
+    return el > 40
+})
+console.log(firstElementIndex)
+
+// program 8
+
+let numbersB = [11,22,33,44,5]
+let ev = numbersB.every(function(el,index,arr){
+    return el > 10
+})
+console.log(ev)
+
+
+// program 9 
+numbersB = [11,22,33,44,5]
+let sm = numbersB.some(function(el){
+    return el <= 5
+})
+console.log(sm)
+
+// map()
+// filter()
+// reduce()
+// forEach()
+// find()
+// findIndex()
+// some()
+// every()
+
+
+// object -- properties and methods 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
