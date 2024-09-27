@@ -286,6 +286,64 @@ console.log(sm)
 // object -- properties and methods 
 
 
+// slice 
+//              0      1      2     3       4
+let namess = ["amol","amit","ram","sham","sachin"]
+//             -5     -4     -3     -2       -1
+//namess.slice(startIndex,(endIndex)(not included))
+let a = namess.slice(2)
+console.log(a)
+console.log(namess.slice(-5))
+console.log(namess.slice(1,4))
+console.log(namess.slice(-2))
+console.log(namess.slice(-5,-1))
+console.log(namess.slice(-3))
+console.log(namess.slice(-3,-1))
+console.log(namess.slice(-5,4))
+console.log(namess.slice(1,-2))
+console.log(namess.slice(-1,-3))
+
+// splice()
+//               0        1        2         3          4
+let citiess = ["pune","mumbai","bangalore",'kolkata',"chennai"]
+// citiess.pop()
+// citiess.shift()
+// console.log(citiess)
+//citiess.splice(startIndex, numberofElements)
+
+// citiess.splice(1,2)
+// console.log(citiess)
+
+// citiess.splice(2,1)
+// console.log(citiess)
+// citiess.splice(2,2,"wardha","nagpur")
+// console.log(citiess)
+
+// concat 
+
+let arr = [11,22,33]
+let arr2  = [44,55,66]
+console.log(arr.concat(arr2))
+console.log(arr2.concat(arr))
+
+// fill 
+//             0   1 2  3  4  5
+let results = [11,22,33,44,55,66]
+let q12 = results.fill('-',1,results.length)
+console.log(q12)
+
+// at 
+
+let langauge = ["marathi","hindi","english"]
+console.log(langauge.at(2))
+
+// indexof
+console.log(langauge.indexOf("english"))
+console.log(langauge.indexOf("English"))
+
+
+
+
 
 
 
