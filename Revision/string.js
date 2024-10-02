@@ -14,8 +14,6 @@ console.log(typeof middleName)
 // let a1 = true 
 // console.log(typeof a1) 
 
-
-
 // program 2
 // string + number =====> string 
 // number + string =====> string
@@ -176,6 +174,55 @@ console.log(city10.slice(-6,4))
 console.log(city10.slice(0,-1))
 console.log(city10.slice(-1,-3))
 
+// repeat()
+
+let str1 = "hello"
+let str2 = str1.repeat(3)
+console.log(str2)
+
+
+// replace()
+let str3 = "i am learning javascript"
+let str5 = str3.replace("javascript","python")
+console.log(str5)
+
+// substring()
+let city33 = "chandrapur"
+
+//  0    1    2   3   4   5   6   7   8   9
+//  c    h    a   n   d   r   a   p   u   r
+// method is similar to slice but does not accept negative index
+let q44 = city33.substring(1,5)
+console.log(q44)
+
+// charAt()
+// 0   1    2    3
+// a   m    o    l
+
+let h = "amol"
+let q22 = h.charAt(2)
+console.log(q22)
+q23 = h.charCodeAt(0)
+console.log(q23)
+
+// indexOf()
+
+//  0    1    2   3
+//  a    m    o    l
+
+let h2 = "amol"
+let q222 = h2.indexOf("a")
+let q22a = h2.indexOf("A")
+console.log(q222)
+console.log(q22a)
+
+// lastIndexOf()
+
+let discovery = "javascript"
+// 0   1   2   3   4  5  6  7   8  9
+// j   a   v   a   s  c  r  i   p   t
+let q223 = discovery.lastIndexOf('a')
+console.log(q223)
 
 
 
