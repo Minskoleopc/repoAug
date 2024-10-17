@@ -5,11 +5,14 @@ let inputElement = document.querySelector('input')
 
 addButton.addEventListener('click',function(){
     let text  = inputElement.value
-    let newLi = document.createElement('li') // <li><li>
-    newLi.textContent = text // <li>Papaya</li>
-    createButtons(newLi)
-    ulList.appendChild(newLi)
-    inputElement.value = ""
+    if(text != ""){
+        let newLi = document.createElement('li') // <li><li>
+        newLi.textContent = text // <li>Papaya</li>
+        createButtons(newLi)
+        ulList.appendChild(newLi)
+        inputElement.value = ""
+    }
+  
 })
 
 ulList.addEventListener('click',function(event){
