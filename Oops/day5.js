@@ -78,11 +78,11 @@ class SBI extends WorlBank{
     // override
     loan(){
         console.log("loan from SBI")
-        //super.loan()
+        super.loan()
     }
     save(){
         console.log("save from SBI")
-        //super.loan()
+        super.loan()
     }
 
 }
