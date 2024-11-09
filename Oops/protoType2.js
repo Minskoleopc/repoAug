@@ -60,6 +60,54 @@ console.log(q2)
 // actual difference between arrow function and function expression
 
 
+// object literal 
+// function construtor 
+// Es6 class
+// Object.create()
+
+let amol = Object.create({})
+console.log(amol)
+amol.fn = "amol"
+amol.ln = "rao"
+amol.displayName = function(){
+    console.log(this.fn + this.ln)
+}
+console.log(amol)
+amol.displayName()
+
+// Object.create()
+
+
+let pro = {
+    init:function(fn,ln){
+        this.firstName = fn 
+        this.lastName  =ln
+    },
+    displayName:function(){
+        console.log(this.firstName + this.lastName)
+    }
+}
+// __proto__
+let amol2 = Object.create(pro)
+console.log(amol2)
+amol2.init('amol2',"rao2")
+amol2.displayName()
+
+
+// object literal 
+// function constructor
+// Es6 class
+// Object.create()
+
+
+
+
+
+
+
+
+
+
 
 
 
