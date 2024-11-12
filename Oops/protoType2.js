@@ -99,6 +99,7 @@ amol2.displayName()
 // Es6 class
 // Object.create()
 
+// f
 
 
 
